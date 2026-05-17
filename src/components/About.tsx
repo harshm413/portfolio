@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Terminal } from "lucide-react";
+import LeetCodeWidget from "@/components/LeetCodeWidget";
 
 export default function About() {
   return (
@@ -86,6 +87,10 @@ export default function About() {
             </div>
           </div>
         </div>
+
+              <div id="leetcode">
+                <LeetCodeWidget />
+              </div>
       </div>
     </motion.section>
   );

@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import LeetCodeWidget from "@/components/LeetCodeWidget";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
@@ -17,10 +16,7 @@ export default function Home() {
       <Navbar />
       <div className="max-w-5xl mx-auto px-6 md:px-12 flex flex-col gap-24 pb-12">
         <Hero />
-        <section id="about" className="flex flex-col gap-8">
-          <About />
-          <div id="leetcode"><LeetCodeWidget /></div>
-        </section>
+        <section id="about"><About /></section>
         <section id="experience"><Experience /></section>
         <section id="projects"><Projects /></section>
         <section id="skills"><Skills /></section>

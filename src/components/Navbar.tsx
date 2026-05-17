@@ -9,7 +9,8 @@ const navLinks = [
   { label: "Projects", id: "projects" },
   { label: "Skills", id: "skills" },
   { label: "Writing", id: "blogs" },
-  { label: "LeetCode", id: "leetcode" },
+  { label: "Education", id: "education" },
+  { label: "Certifications", id: "certifications" },
 ];
 
 export default function Navbar() {
