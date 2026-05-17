@@ -86,11 +86,11 @@ export default function About() {
               ))}
             </div>
           </div>
-        </div>
 
-              <div id="leetcode">
-                <LeetCodeWidget />
-              </div>
+          <div id="leetcode">
+            <LeetCodeWidget />
+          </div>
+        </div>
       </div>
     </motion.section>
   );
